@@ -1,0 +1,34 @@
+.tab__bar {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  position: fixed;
+  bottom:0px;
+  border-top: 1px solid #c1c1c1;
+  padding: 10px 30px 5px 30px;
+}
+
+.tab__bar .tab__bar-tab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color:#c1c1c1;
+  transition: transform .3s linear;
+}
+.tab__bar .tab__bar-tab i {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.tab__bar .tab__bar-tab--seleted {
+  color:#523737;
+  text-decoration: rows;
+}
+
+.tab__bar .tab__bar-title {
+  font-size: 10px;
+}
